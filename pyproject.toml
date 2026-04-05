@@ -1,0 +1,17 @@
+[project]
+name = "gitretro"
+version = "1.0.0"
+description = "Generate a retrospective of changes in a git repository using LLMs."
+readme = "README.md"
+authors = [{ name = "Priyanshu Dangare", email = "hello@aspiz.uk" }]
+requires-python = ">=3.14"
+dependencies = [
+    "google-genai>=1.70.0",
+]
+
+[project.scripts]
+gitretro = "gitretro:main"
+
+[build-system]
+requires = ["uv_build>=0.11.1,<0.12.0"]
+build-backend = "uv_build"

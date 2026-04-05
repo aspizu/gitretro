@@ -1,0 +1,2 @@
+select = ["ALL"]
+ignore = ["COM", "D", "FBT"]
